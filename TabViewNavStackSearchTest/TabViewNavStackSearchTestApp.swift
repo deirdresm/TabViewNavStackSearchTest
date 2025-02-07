@@ -12,7 +12,7 @@ import SwiftData
 struct TabViewNavStackSearchTestApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+			Cat.self, Coffee.self, Instrument.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
